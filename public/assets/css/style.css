@@ -1,0 +1,609 @@
+@font-face {
+    font-family: "Helvetica local";
+    src: url("../font/Helvetica.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src: url("../font/Rubik.ttf") format('truetype');
+}
+
+body {
+    font-family: "Helvetica local";
+}
+
+.btn-custom {
+    padding: 8px 12px;
+    color: white;
+    border: none;
+    background-color: #73ca5c;
+    font-weight: 700;
+}
+
+.btn-custom:hover {
+    color: white;
+    background-color: #3da620;
+}
+
+.btn-custom:focus:active {
+    color: white;
+    background-color: #277300;
+}
+
+.main-section {
+    background-color: #F1F3FF;
+}
+
+.main-text-judul {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.offcanvas {
+    width: 270px !important;
+}
+
+.main-text {
+    margin-right: -80px;
+}
+
+.main-bg {
+    background-color: #0D28A6;
+    position: relative;
+    top: 40%;
+    left: 0;
+    right: 0;
+    height: 60%;
+    border-top-left-radius: 50px;
+}
+
+.bg-img {
+    position: relative;
+    top: -60%;
+}
+
+.container-our-services {
+    box-sizing: border-box;
+}
+
+.img-services {
+    box-sizing: border-box;
+}
+
+.container-desc-service h2 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.container-desc-service p,
+.container-desc-service ul li {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.container-desc-service ul {
+    padding: 0;
+}
+
+.container-desc-service ul li::before {
+    content: url("../img/list-style-check-2.svg");
+    margin-right: 10px;
+}
+
+.container-desc-service ul li {
+    list-style: none;
+    display: flex;
+    align-items: flex-start;
+}
+
+.main-section {
+    padding-right: 0 !important;
+}
+
+section.why-us .why-us-head {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+section.why-us .why-us-text {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+section.why-us .card {
+    height: 200px;
+}
+
+section.why-us .card .card-body .card-title {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+section.why-us .card .card-body .card-text {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+section.testimonial .testi {
+    max-width: 900px;
+    padding: 0 15px 50px;
+    margin: 0 auto 0 auto;
+
+}
+
+.testimonial h1 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.testimonial p {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+#testimonial-section {
+    margin-top: 7vw !important;
+}
+
+.carousel-control-prev {
+    margin-left: 10px;
+}
+
+.carousel-control-next {
+    margin-right: 10px;
+}
+
+.testi-content {
+    background-color: #F1F3FF;
+    margin: 15px 0;
+}
+
+.profile {
+    text-align: center;
+}
+
+.content {
+    font-size: 14px;
+}
+
+.content p {
+    text-align: justify;
+}
+
+.getting-started {
+    margin-bottom: 100px !important;
+}
+
+.gs-con {
+    background-color: #0D28A6;
+}
+
+.gs-head {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.gs-desc {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.faq {
+    margin-bottom: 120px !important;
+}
+
+.faq-desc h1 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.faq-desc p {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.footer {
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer .sosmed-icon img {
+    margin-right: 10px;
+}
+
+.footer-services {
+    font-weight: 400;
+}
+
+.layar-gelap {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    width: 100vw;
+    top: 0;
+    bottom: 0;
+    z-index: 9;
+    display: none;
+}
+
+.filter-data-mobil .container {
+    font-family: Rubik;
+    position: relative;
+    width: 94% !important;
+    top: -60px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    z-index: 9999;
+}
+
+.input-container {
+    display: inline-block;
+    margin: 8px;
+}
+
+.filter-data-mobil label {
+    display: block;
+    margin-bottom: 5px;
+    color: #3C3C3C;
+    font-size: 12px;
+}
+
+.filter-data-mobil button {
+    margin-top: 10px;
+}
+
+.filter-data-mobil .select-box,
+.filter-data-mobil ::placeholder,
+.filter-data-mobil input {
+    font-size: 12px;
+    color: #8A8A8A;
+}
+
+.filter-data-mobil .select-box,
+.filter-data-mobil input {
+    width: 210.75px;
+    height: 36px;
+    border: 1px solid #D0D0D0;
+    outline: none;
+    border-radius: 2px;
+    padding: 9px 12px;
+}
+
+.filter-data-mobil .select-box:focus,
+.filter-data-mobil input:focus {
+    outline: 1px solid #5CB85F;
+}
+
+.filter-data-mobil .select-box {
+    appearance: none;
+}
+
+.filter-data-mobil button {
+    font-family: "Helvetica local";
+    font-size: 14px;
+    height: 36px;
+    border-radius: 2px;
+}
+
+.input-box {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.tipe-driver-container .selection::after {
+    content: url(../img/Vector.svg);
+    position: absolute;
+    right: 10px;
+    pointer-events: none;
+}
+
+.clear {
+    clear: both;
+}
+
+.waktu-jemput-container::after {
+    content: url(../img/fi_clock.svg);
+    position: absolute;
+    top: 9px;
+    right: 10px;
+    pointer-events: none;
+}
+
+#jumlah-penumpang {
+    appearance: none;
+}
+
+.jumlah-penumpang-container::after {
+    content: url(../img/fi_jumlah_penumpang.svg);
+    position: absolute;
+    top: 9px;
+    right: 10px;
+    pointer-events: none;
+}
+
+.daftar-mobil {
+    display: none;
+    margin-bottom: 50px;
+}
+
+.daftar-mobil .container {
+    width: 1047px;
+    padding: 0;
+}
+
+.daftar-mobil .card {
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.daftar-mobil .car-pict-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.daftar-mobil img.car-pict {
+    height: 220px;
+    object-fit: cover;
+}
+
+.daftar-mobil .nama-mobil {
+    margin-bottom: 5px !important;
+    font-size: 14px;
+}
+
+.daftar-mobil .harga {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.daftar-mobil p {
+    font-size: 14px;
+}
+
+.daftar-mobil .rent img {
+    margin-right: 5px;
+}
+
+.daftar-mobil .rent p {
+    display: inline-block;
+}
+
+.daftar-mobil a {
+    width: 100%;
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: 700;
+    background-color: #5CB85F;
+    color: #fff !important;
+    padding: 8px;
+}
+
+.daftar-mobil a:hover {
+    background-color: #3da620;
+}
+
+.daftar-mobil a:active {
+    background-color: #277300 !important;
+}
+
+
+@media only screen and (max-width:599px) {
+
+    nav,
+    section {
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+
+    .offcanvas {
+        width: 60vw !important;
+    }
+
+
+}
+
+@media only screen and (max-width:1100px) {
+    .daftar-mobil .container {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width:600px) {
+
+    nav,
+    section {
+        padding-left: 50px !important;
+        padding-right: 50px !important;
+    }
+}
+
+@media only screen and (min-width:800px) {
+
+    nav,
+    section {
+        padding-left: 70px !important;
+        padding-right: 70px !important;
+    }
+
+    .main-text-container p {
+        margin-right: 70px !important;
+    }
+}
+
+@media only screen and (max-width: 992px) and (min-width: 768px) {
+    .bg-img {
+        position: absolute;
+        top: auto;
+        bottom: 0px;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1038px) {
+    section.why-us .card {
+        height: 250px;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .testi-content {
+        padding: 20px;
+        text-align: center;
+    }
+
+    .profile {
+        margin-bottom: 30px;
+    }
+
+    .rate {
+        margin-bottom: 20px !important;
+    }
+
+    .carousel-control-next {
+        right: 20px;
+    }
+
+    .carousel-control-prev {
+        left: 20px;
+    }
+
+    .input-container,
+    .filter-data-mobil .btn-custom {
+        display: block;
+    }
+
+    .filter-data-mobil .btn-custom {
+        width: 100%;
+    }
+
+    .filter-data-mobil .select-box,
+    .filter-data-mobil input {
+        width: 100% !important;
+    }
+
+    .card-container {
+        width: 90% !important;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+
+}
+
+@media only screen and (max-width:768px) {
+
+    .carousel-control-next,
+    .carousel-control-prev {
+        top: -180px;
+    }
+
+}
+
+@media only screen and (width:768px) {
+
+    .carousel-control-prev img,
+    .carousel-control-next img {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:658px) {
+
+    .carousel-control-next,
+    .carousel-control-prev {
+        top: -200px;
+    }
+}
+
+@media only screen and (max-width:600px) {
+
+    .carousel-control-next,
+    .carousel-control-prev {
+        top: -180px;
+    }
+}
+
+@media only screen and (width:600px) {
+
+    .carousel-control-next,
+    .carousel-control-prev {
+        top: -200px;
+    }
+}
+
+
+@media only screen and (max-width:588px) {
+
+    .carousel-control-next,
+    .carousel-control-prev {
+        top: -200px;
+    }
+}
+
+@media only screen and (max-width:500px) {
+
+    nav,
+    section {
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+
+}
+
+
+@media only screen and (max-width:416px) {
+
+    .carousel-control-next,
+    .carousel-control-prev {
+        top: -220px;
+    }
+
+    .filter-data-mobil .select-box,
+    .filter-data-mobil input {
+        width: 280px;
+    }
+}
+
+@media only screen and (max-width:342px) {
+
+    .carousel-control-next,
+    .carousel-control-prev {
+        top: -240px;
+    }
+}
+
+@media only screen and (width:342px) {
+
+    .carousel-control-next,
+    .carousel-control-prev {
+        top: -220px;
+    }
+}
+
+@media only screen and (width:342px) {
+
+    .carousel-control-next,
+    .carousel-control-prev {
+        top: -220px;
+    }
+}
+
+@media only screen and (max-width:324px) {
+
+    .carousel-control-next,
+    .carousel-control-prev {
+        top: -260px;
+    }
+}
