@@ -3,7 +3,7 @@ class App {
     this.daftarMobilSection = document.getElementById("daftar-mobil-section")
     this.cariButton = document.getElementById("btn-cari-mobil");
     this.daftarMobilRow = document.getElementById("daftar-mobil-row");
-
+    const layarGelap = document.querySelector('.layar-gelap');
   }
 
   async init() {
@@ -14,7 +14,7 @@ class App {
 
   run = () => {
     this.cariButton.addEventListener('click', () => {
-
+      layarGelap.style.display = 'none';
       let child = this.daftarMobilRow.firstElementChild;
       while (child) {
         child.remove();
